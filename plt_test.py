@@ -109,7 +109,7 @@ def draw_vtx_mkpi(sample, c, fs):
 
     for h in hs:
         if hs.index(h) == 0:
-            h.SetXTitle('P_{ K^{+}#pi^{-}} (GeV/c^{2})') 
+            h.SetXTitle('m_{ K^{+}#pi^{-}} (GeV/c^{2})') 
             h.SetYTitle('Events/(5 MeV/c^{2})')
             h.SetMarkerStyle(ROOT.kFullDotLarge)
             h.Draw()
